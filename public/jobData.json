@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Account & Finance",
+        "jobs": "300 Jobs Available",
+        "img": "https://img.freepik.com/free-vector/travel-road-street-map-with-location-pin-symbol-vector-illustration_1284-2005.jpg?w=740&t=st=1681059809~exp=1681060409~hmac=a57005461137a89d081a502c928b2cccf12c5fe46a495ba800bdb27bf5acadae"
+    },
+    {
+        "id": "2",
+        "name": "Creative Design",
+        "jobs": "100+ Jobs Available",
+        "img": "https://img.freepik.com/free-vector/illustration-light-bulb-icon_53876-43730.jpg?w=740&t=st=1681059914~exp=1681060514~hmac=17846a2c82c000995ac8a507426bce41eb2ce2d173c2f62ac2554dcf4e265b05"
+    },
+    {
+        "id": "3",
+        "name": "Marketing & Sales",
+        "jobs": "150 Jobs Available",
+        "img": "https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg?w=740&t=st=1681059954~exp=1681060554~hmac=d827eea10bd4f66682dc8bd9eb8c259a23f355dffc119c58cbfe64f2ed3ae094"
+    },
+    {
+        "id": "4",
+        "name": "Engineering Job",
+        "jobs": "224 Jobs Available",
+        "img": "https://img.freepik.com/free-vector/linear-style-illustrations-mobile-navigation-travel-elements_1257-267.jpg?w=740&t=st=1681060085~exp=1681060685~hmac=ed5578714475444f3bce4c3ca0e879b869f8a7123a972b567c65e263357c79c6"
+    }
+]

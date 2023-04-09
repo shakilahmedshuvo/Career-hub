@@ -1,6 +1,9 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import ShowData from '../ShowData/ShowData';
 
 const Home = () => {
+    const loadData = useLoaderData();
     return (
         <div>
             {/* banner section start */}
@@ -24,6 +27,20 @@ const Home = () => {
                 </div>
             </div>
             {/* banner section end */}
+            {/* job section start */}
+            <div className='text-center mt-20'>
+                <h1 className='text-3xl font-bold'>Job Category List</h1>
+                <p className='mt-4  text-gray-500 font-medium'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <div className='mt-14 grid md:grid-cols-4 mx-20'>
+                    {
+                        loadData.map(data => <ShowData
+                            data={data}
+                            key={data.id}
+                        ></ShowData>)
+                    }
+                </div>
+            </div>
+            {/* job section end */}
         </div>
     );
 };
