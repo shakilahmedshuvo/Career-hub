@@ -16,7 +16,7 @@ const ShowData = ({ data }) => {
                 </div>
             </div>
             {/* banner card section start */}
-        </div>
+      </div>
     );
 };
 

@@ -41,6 +41,12 @@ const Home = () => {
                 </div>
             </div>
             {/* job section end */}
+            {/* feature job section start */}
+            <div className='text-center mt-10'>
+                <h1 className='font-bold text-4xl'>Featured Jobs</h1>
+                <p className='mt-4 text-gray-400'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            </div>
+            {/* feature job section end */}
         </div>
     );
 };

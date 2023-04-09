@@ -1,0 +1,26 @@
+[
+    {
+        "id": "",
+        "logo": "",
+        "title": "",
+        "name": "",
+        "job": {
+            "0": "Remote",
+            "1": "Onsite"
+        },
+        "location": "",
+        "time": {
+            "0": "FullTime",
+            "1": "PartTime"
+        },
+        "salary": "0",
+        "description": "",
+        "responsibility": "",
+        "educational": "",
+        "experiences": "",
+        "Contact": {
+            "phone": "0123456",
+            "email": "123"
+        }
+    }
+]
