@@ -5,7 +5,6 @@ import { faLocationDot,faDollar} from '@fortawesome/free-solid-svg-icons'
 
 
 const CardDisplay = ({ cards }) => {
-    console.log(cards);
     const { logo, title, name, job, time, location, salary } = cards;
     return (
         <div className='w-full h-full border shadow-xl p-6 card'>

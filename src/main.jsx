@@ -10,6 +10,7 @@ import './index.css'
 import Main from './Components/Main/Main';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import Blog from './Components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () => fetch('jobData.json')
+      },
+      {
+        path:"blog",
+        element:<Blog></Blog>
       }
     ]
   },
