@@ -1,26 +1,92 @@
 [
     {
-        "id": "",
-        "logo": "",
-        "title": "",
-        "name": "",
-        "job": {
-            "0": "Remote",
-            "1": "Onsite"
-        },
-        "location": "",
-        "time": {
-            "0": "FullTime",
-            "1": "PartTime"
-        },
-        "salary": "0",
-        "description": "",
-        "responsibility": "",
-        "educational": "",
-        "experiences": "",
-        "Contact": {
-            "phone": "0123456",
-            "email": "123"
-        }
+        "id": "1",
+        "logo": "https://img.freepik.com/premium-vector/google-search-logo_578229-273.jpg?w=996",
+        "title": "Technical Database Engineer",
+        "name": "Google LLC",
+        "job": { "first": "Remote","second": "Onsite"},
+        "location": "Dhaka, Bangladesh",
+        "time": {"first": "FullTime","second": "PartTime"},
+        "salary": "100K - 150K",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "Contact": {"phone": "01750-00 00 00","email": "info@gmail.com"}
+    },
+    {
+        "id": "2",
+        "logo": "https://cdn-icons-png.flaticon.com/512/732/732228.png?w=740&t=st=1681105731~exp=1681106331~hmac=fb69931e657287ebc0ff4d8ffa849793fd9004d984b825eced2ff1f001ffe259",
+        "title": "Senior Product Designer",
+        "name": "Netflix",
+        "job": { "first": "Remote","second": "Onsite"},
+        "location": "Los Gatos, USA",
+        "time": {"first": "FullTime","second": "PartTime"},
+        "salary": "100K - 150K",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "Contact": {"phone": "01750-00 00 00","email": "info@gmail.com"}
+    },
+    {
+        "id": "3",
+        "logo": "https://cdn-icons-png.flaticon.com/512/50/50684.png?w=740&t=st=1681106055~exp=1681106655~hmac=df093f8a9e53d3594fa76dbe54f5b304767665eb23251fc7f5a84c671d3bb99d",
+        "title": "Software Engineer",
+        "name": "Tesla",
+        "job": { "first": "Remote","second": "Onsite"},
+        "location": "Fremont California, USA",
+        "time": {"first": "FullTime","second": "PartTime"},
+        "salary": "100K - 150K",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "Contact": {"phone": "01750-00 00 00","email": "info@gmail.com"}
+    },
+    {
+        "id": "4",
+        "logo": "https://img.freepik.com/premium-vector/google-search-logo_578229-273.jpg?w=996",
+        "title": "Technical Database Engineer",
+        "name": "Google LLC",
+        "job": { "first": "Remote","second": "Onsite"},
+        "location": "Mountain View California, USA",
+        "time": {"first": "FullTime","second": "PartTime"},
+        "salary": "100K - 150K",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "Contact": {"phone": "01750-00 00 00","email": "info@gmail.com"}
+    },
+    {
+        "id": "5",
+        "logo": "https://cdn-icons-png.flaticon.com/512/732/732181.png?w=740&t=st=1681106143~exp=1681106743~hmac=e48f7afe1d197f62e6e7f1d97d2ef808ba26f907e49b683da07cb00dfe1ab16c",
+        "title": "Technical Specialist",
+        "name": "Apple",
+        "job": { "first": "Remote","second": "Onsite"},
+        "location": "New York City, USA",
+        "time": {"first": "FullTime","second": "PartTime"},
+        "salary": "100K - 150K",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "Contact": {"phone": "01750-00 00 00","email": "info@gmail.com"}
+    },
+    {
+        "id": "6",
+        "logo": "https://cdn-icons-png.flaticon.com/512/732/732221.png?w=740&t=st=1681106190~exp=1681106790~hmac=e05f0a396be5fafe29022e7bf6f276681d46cd9da57cdec70c119e7b85863826",
+        "title": "Microsoft",
+        "name": "Software Engineer",
+        "job": { "first": "Remote","second": "Onsite"},
+        "location": "Washington, USA",
+        "time": {"first": "FullTime","second": "PartTime"},
+        "salary": "100K - 150K",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "Contact": {"phone": "01750-00 00 00","email": "info@gmail.com"}
     }
 ]

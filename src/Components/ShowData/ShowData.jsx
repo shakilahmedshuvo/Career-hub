@@ -16,7 +16,12 @@ const ShowData = ({ data }) => {
                 </div>
             </div>
             {/* banner card section start */}
-      </div>
+            {/* card seciton start */}
+            <div className='mt-10'>
+                <h1>this</h1>
+            </div>
+            {/* card seciton end */}
+        </div>
     );
 };
 
