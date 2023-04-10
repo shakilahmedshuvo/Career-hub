@@ -1,6 +1,7 @@
 import React from 'react';
 import './CardDisplay.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot,faDollar} from '@fortawesome/free-solid-svg-icons'
 
 
 const CardDisplay = ({ cards }) => {
@@ -22,7 +23,13 @@ const CardDisplay = ({ cards }) => {
             </div>
             <div className='flex mt-8'>
                 <div className='flex text-gray-400 card-info'>
+                    <FontAwesomeIcon
+                        className='mt-1 mr-1'
+                        icon={faLocationDot} />
                     <p>{location}</p>
+                    <FontAwesomeIcon
+                        className='mt-1 mr-1'
+                        icon={faDollar} />
                     <p>Salary: {salary}</p>
                 </div>
             </div>
