@@ -11,6 +11,7 @@ import Main from './Components/Main/Main';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Blog from './Components/Blog/Blog';
+import Statistics from './Components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:"blog",
         element:<Blog></Blog>
+      },
+      {
+        path:"statistics",
+        element:<Statistics></Statistics>
       }
     ]
   },
