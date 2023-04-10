@@ -77,8 +77,8 @@
     {
         "id": "6",
         "logo": "https://cdn-icons-png.flaticon.com/512/732/732221.png?w=740&t=st=1681106190~exp=1681106790~hmac=e05f0a396be5fafe29022e7bf6f276681d46cd9da57cdec70c119e7b85863826",
-        "title": "Microsoft",
-        "name": "Software Engineer",
+        "title": "Software Engineer",
+        "name": "Microsoft",
         "job": { "first": "Remote","second": "Onsite"},
         "location": "Washington, USA",
         "time": {"first": "FullTime","second": "PartTime"},

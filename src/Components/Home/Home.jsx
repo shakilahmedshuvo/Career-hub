@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import ShowData from '../ShowData/ShowData';
+import CardDisplay from '../CardDisplay/CardDisplay';
 
 const Home = () => {
     const loadData = useLoaderData();
+    const [cardData, setCardData] = useState([])
+    useEffect(()=>{
+        fetch('cradInfoData.json')
+        .then(res=>res.json())
+        .then(data=>setCardData(data))
+    },[])
     return (
         <div>
             {/* banner section start */}
@@ -45,6 +52,14 @@ const Home = () => {
             <div className='text-center mt-10'>
                 <h1 className='font-bold text-4xl'>Featured Jobs</h1>
                 <p className='mt-4 text-gray-400'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            </div>
+            <div className='grid md:grid-cols-2 gap-12 mt-16 md:mx-44 mb- 8'>
+                {
+                        cardData.map(cards=><CardDisplay
+                        cards={cards}
+                        key={cards.id}
+                        ></CardDisplay>)
+                }
             </div>
             {/* feature job section end */}
         </div>

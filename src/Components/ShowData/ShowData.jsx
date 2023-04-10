@@ -15,12 +15,8 @@ const ShowData = ({ data }) => {
                     <span className='text-gray-400'>{jobs}</span>
                 </div>
             </div>
-            {/* banner card section start */}
-            {/* card seciton start */}
-            <div className='mt-10'>
-                <h1>this</h1>
-            </div>
-            {/* card seciton end */}
+            {/* banner card section end */}
+            
         </div>
     );
 };
