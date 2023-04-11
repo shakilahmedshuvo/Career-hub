@@ -1,11 +1,12 @@
 import React from 'react';
 import './CardDisplay.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot,faDollar} from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faDollar } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 
 const CardDisplay = ({ cards }) => {
-    const { logo, title, name, job, time, location, salary } = cards;
+    const { logo, title, name, job, time, location, salary,id } = cards;
     return (
         <div className='w-full h-full border shadow-xl p-6 card'>
             {/* feature jobs section start */}
@@ -33,7 +34,7 @@ const CardDisplay = ({ cards }) => {
                 </div>
             </div>
             <div>
-                <button className='card-btn mt-5'>View Details</button>
+                <Link to={`/ShowDetails/${id}`}><button className='card-btn mt-5'>View Details</button></Link>
             </div>
             {/* feature jobs section end */}
         </div>

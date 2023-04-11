@@ -8,11 +8,11 @@ import {
 } from "react-router-dom";
 import './index.css'
 import Main from './Components/Main/Main';
-import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Blog from './Components/Blog/Blog';
 import Statistics from './Components/Statistics/Statistics';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
+import ShowDetailes from './Components/ShowDetailes/ShowDetailes';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +24,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () => fetch('jobData.json')
+      },
+      {
+        path:"ShowDetails/:CardId",
+        element:<ShowDetailes></ShowDetailes>,
+        loader:()=>fetch('/cardInfoData.json')
       },
       {
         path: "blog",
