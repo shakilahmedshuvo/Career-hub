@@ -7,7 +7,7 @@ const Home = () => {
     const loadData = useLoaderData();
     const [cardData, setCardData] = useState([])
     useEffect(()=>{
-        fetch('cradInfoData.json')
+        fetch('cardInfoData.json')
         .then(res=>res.json())
         .then(data=>setCardData(data))
     },[])
