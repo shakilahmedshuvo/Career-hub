@@ -12,11 +12,13 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Blog from './Components/Blog/Blog';
 import Statistics from './Components/Statistics/Statistics';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -24,12 +26,12 @@ const router = createBrowserRouter([
         loader: () => fetch('jobData.json')
       },
       {
-        path:"blog",
-        element:<Blog></Blog>
+        path: "blog",
+        element: <Blog></Blog>
       },
       {
-        path:"statistics",
-        element:<Statistics></Statistics>
+        path: "statistics",
+        element: <Statistics></Statistics>
       }
     ]
   },
