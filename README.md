@@ -1,1 +1,1 @@
-live Web Site Link: https://app.netlify.com/sites/job-hub-612/settings/general
+live Web Site Link: https://job-hub-612.netlify.app/
