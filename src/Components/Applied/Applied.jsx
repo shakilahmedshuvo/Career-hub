@@ -6,9 +6,6 @@ const Applied = () => {
     const { initialCart } = useLoaderData();
     return (
         <div>
-            {/* banner section start */}
-            
-            {/* banner section end */}
             <div>
                 <h1 className='text-2xl mt-10 font-medium text-center'>Applied <span className='text-blue-300'>Jobs</span></h1>
             </div>
