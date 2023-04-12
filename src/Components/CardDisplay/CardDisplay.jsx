@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 const CardDisplay = ({ cards }) => {
-    const { logo, title, name, job, time, location, salary,id } = cards;
+    const { logo, title, name, job, time, location, salary, id } = cards;
     return (
         <div className='w-full h-full border shadow-xl p-6 card'>
             {/* feature jobs section start */}
@@ -34,7 +34,9 @@ const CardDisplay = ({ cards }) => {
                 </div>
             </div>
             <div>
-                <Link to={`/ShowDetails/${id}`}><button className='card-btn mt-5'>View Details</button></Link>
+                <Link to={`/ShowDetails/${id}`}
+                ><button className='card-btn mt-5'
+                >View Details</button></Link>
             </div>
             {/* feature jobs section end */}
         </div>
