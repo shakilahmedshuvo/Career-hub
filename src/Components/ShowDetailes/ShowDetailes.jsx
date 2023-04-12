@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
-// import { addToDb } from '../../utilis/FakeData';
+import { addToDb } from '../../utils/fakaData';
+
 
 const ShowDetails = () => {
     const param = useParams()
