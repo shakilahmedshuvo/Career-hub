@@ -13,6 +13,8 @@ import Blog from './Components/Blog/Blog';
 import Statistics from './Components/Statistics/Statistics';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import ShowDetailes from './Components/ShowDetailes/ShowDetailes';
+import Applied from './Components/Applied/Applied';
+import { productsAndCartData } from './loader/getCart&ProductsData';
 
 const router = createBrowserRouter([
   {
@@ -26,9 +28,9 @@ const router = createBrowserRouter([
         loader: () => fetch('jobData.json')
       },
       {
-        path:"ShowDetails/:CardId",
-        element:<ShowDetailes></ShowDetailes>,
-        loader:()=>fetch('/cardInfoData.json')
+        path: "ShowDetails/:CardId",
+        element: <ShowDetailes></ShowDetailes>,
+        loader: () => fetch('/cardInfoData.json')
       },
       {
         path: "blog",
@@ -37,6 +39,11 @@ const router = createBrowserRouter([
       {
         path: "statistics",
         element: <Statistics></Statistics>
+      },
+      {
+        path: '/applied',
+        element: <Applied></Applied>,
+        loader: productsAndCartData
       }
     ]
   },
