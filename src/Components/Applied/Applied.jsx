@@ -7,7 +7,10 @@ const Applied = () => {
     return (
         <div>
             <div>
-                <h1 className='text-4xl mt-10 font-extrabold text-center'>Applied <span className='text-blue-400'>Jobs</span></h1>
+                <h1
+                    className='text-4xl mt-10 font-extrabold text-center'>
+                    Applied <span className='text-blue-400'>Jobs</span>
+                </h1>
             </div>
             <div className='mx-30'>
                 {/* details section start */}

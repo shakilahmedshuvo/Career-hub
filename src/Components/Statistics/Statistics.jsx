@@ -1,8 +1,7 @@
 import React from 'react';
-
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Line } from 'recharts';
 
-
+// marks array for Statistics
 const marksArray = [
     {
         number: 'Assignment 1',
@@ -41,8 +40,13 @@ const marksArray = [
 const Statistics = () => {
     return (
         <div>
-            <h1 className='mt-15 text-center font-bold  text-3xl'>My Assignment Marks Chart</h1>
-            <div className='mt-10' style={{ width: '100%', height: 300 }}>
+            <h1
+                className='mt-15 text-center font-bold  text-3xl'>
+                My Assignment Marks Chart
+            </h1>
+            <div
+                className='mt-10'
+                style={{ width: '100%', height: 300 }}>
                 <ResponsiveContainer>
                     <AreaChart
                         data={marksArray}
@@ -61,7 +65,6 @@ const Statistics = () => {
                     </AreaChart>
                 </ResponsiveContainer>
             </div>
-
         </div>
     );
 };
